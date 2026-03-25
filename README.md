@@ -15,7 +15,7 @@ This project demonstrates practical skills in Power Query, data modelling, DAX, 
 
 The project addressed two main challenges in the raw housing dataset:
 
-1. Data preparation challenges
+### Data preparation challenges
 
       1. The raw dataset contained too many columns for efficient analysis.
       2. Repeated attribute combinations created unnecessary redundancy.
@@ -24,57 +24,57 @@ The project addressed two main challenges in the raw housing dataset:
       5. Text-heavy description fields increased model size and complexity.
       6. The data required cleaning, standardisation, deduplication, and restructuring before analysis
 
-2. Reporting and analysis challenges
+### Reporting and analysis challenges
 
       1. It was difficult to identify overall market patterns from the raw data.
       2. Property segments were not easy to compare in a clear reporting format.
       3. Key drivers of listing price were not immediately visible.
       4. The dataset did not support fast, interactive business analysis in its original form.
 
-Project objective
+### Project objective
 
 Transform the raw housing dataset into a clean, structured, and business-friendly dashboard that supports interactive analysis and clearer market insights.
 
 
 ## Methodology
 
-The project was completed in Excel using Power Query, data modelling logic, Pivot Tables and charts.
+This project was completed in Power BI using Power Query, dimensional data modelling, DAX measures, and interactive dashboard design.
 
-### 1. Data Cleaning and Transformation
+1. Data Cleaning and Transformation
+   
+      1. Loaded the raw housing dataset into Power Query for preparation and transformation.
+      2. Cleaned and transformed 15,172 property records to improve reporting readiness.
+      3. Standardised text fields and improved consistency across selected columns.
+      4. Converted binary True/False fields into more business-friendly Yes/No values.
+      5. Removed duplicate attribute combinations to reduce redundancy in the dataset.
+      6. Applied transformation and formatting rules to improve data quality and usability.
+      7. Reduced the main housing table from 47 columns to 21 columns before modelling.
+      
+2. Data Modelling
 
-    Loaded the raw housing dataset into Power Query
+Rebuilt the raw dataset into a relational star-style model centred on the
+      housing_fact table.
+   
+Created supporting dimension tables, including:
 
-    Cleaned and transformed 15,172 records
-    
-    Standardised text fields and improved field consistency
-    
-    Removed duplicate attribute combinations
-    
-    Applied transformation rules to improve reporting readiness
-    
-    Reduced the main table from 47 columns to 21 columns
+      location
+      house
+      schools
+      features
+      description
+      
+Created analytical support tables including:
 
-### Data Modeling
-
-  Rebuilt the dataset into a relational model with 6 linked tables
-
-  Created:
-
-        housing_fact
-        
-        location
-        
-        house
-        
-        schools
-        
-        features
-        
-        description
-
-Created relationship keys to connect fact and supporting tables
-
-Organised data to reduce redundancy and improve analysis efficiency
+      features_pivot for feature-based comparison analysis
+      word_summary_pqe for optimised word-frequency analysis
+      
+Built relationship keys such as house_key, school_key, feature_key, and zpid to connect fact and supporting tables.
+Organised the model to reduce redundancy, improve maintainability, and support more efficient analysis.
+4. Text and Feature Analysis Preparation
+Separated property description content into a dedicated text-analysis structure.
+Created a summary word table to support dynamic word ranking across price groups.
+Used a Power Query–based summary approach to improve performance compared with a heavier DAX-driven structure.
+Prepared feature attributes in a pivoted format to analyse how housing features related to listing price.
 
 <img width="622" height="416" alt="Screenshot 2026-03-09 204208" src="https://github.com/user-attachments/assets/db7f5a7f-6248-4321-bbf7-3fe5feebcfca" />
 

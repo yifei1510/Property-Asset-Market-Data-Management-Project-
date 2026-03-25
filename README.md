@@ -12,13 +12,28 @@ This project demonstrates practical skills in Power Query, data modelling, DAX, 
 
 ## Business Problem
 
-Residential property data often contains many variables such as home type, build year, living area, lot size, ZIP code, and property features. Without a structured reporting solution, it is difficult to identify:
-    overall market conditions and pricing levels
-    which property types dominate the market
-    how property features relate to listing price
-    what characteristics are associated with premium homes
-    how listing descriptions differ across price segments
-The goal of this project was to convert a large raw housing dataset into a clear, business-friendly dashboard that supports fast insight generation and interactive exploration.
+
+The project addressed two main challenges in the raw housing dataset:
+
+1. Data preparation challenges
+
+      1. The raw dataset contained too many columns for efficient analysis.
+      2. Repeated attribute combinations created unnecessary redundancy.
+      3. Some field values and formatting were inconsistent.
+      4. Binary fields were not business-friendly for reporting.
+      5. Text-heavy description fields increased model size and complexity.
+      6. The data required cleaning, standardisation, deduplication, and restructuring before analysis
+
+2. Reporting and analysis challenges
+
+      1. It was difficult to identify overall market patterns from the raw data.
+      2. Property segments were not easy to compare in a clear reporting format.
+      3. Key drivers of listing price were not immediately visible.
+      4. The dataset did not support fast, interactive business analysis in its original form.
+
+Project objective
+
+Transform the raw housing dataset into a clean, structured, and business-friendly dashboard that supports interactive analysis and clearer market insights.
 
 
 ## Methodology

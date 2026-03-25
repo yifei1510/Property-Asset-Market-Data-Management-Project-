@@ -75,10 +75,10 @@ This project was completed in Power BI using Power Query, dimensional data model
    <img width="529" height="390" alt="image" src="https://github.com/user-attachments/assets/95409284-431e-4f88-b15f-7b2259d54d3b" />
 
 ### Text and Feature Analysis Preparation
-Separated property description content into a dedicated text-analysis structure.
-Created a summary word table to support dynamic word ranking across price groups.
-Used a Power Query–based summary approach to improve performance compared with a heavier DAX-driven structure.
-Prepared feature attributes in a pivoted format to analyse how housing features related to listing price.
+      Separated property description content into a dedicated text-analysis structure.
+      Created a summary word table to support dynamic word ranking across price groups.
+      Used a Power Query–based summary approach to improve performance compared with a heavier DAX-driven structure.
+      Prepared feature attributes in a pivoted format to analyse how housing features related to listing price.
 
 
 ### 3. Analysis and Dashboard Reporting

@@ -1,8 +1,8 @@
-# Austin Housing Market Analytics: Excel, Power Query, Data Modelling and Dashboard Reporting Project
+# Austin Housing Market Analytics: Power BI, Power Query, Data Modelling and Dashboard Reporting Project
 
 ## Executive Summary
 
-This project analyses 15,171 residential property records from the Austin housing market and transforms raw housing data into a structured, interactive Power BI reporting solution. The dashboard suite was built to help users quickly understand market size, pricing patterns, property characteristics, and the main factors associated with higher-value homes.
+This project analyses 15,171 residential property records from the Austin housing market and transforms raw housing data into a structured, interactive Power BI reporting dashboard. The dashboard suite was built to help users quickly understand market size, pricing patterns, property characteristics, and the main factors associated with higher-value homes.
 The final solution includes two interactive dashboard pages:
    A market overview dashboard summarising property count, home prices, lot size, living area, home types, ZIP code distribution,   
    build year trends, and key property features.

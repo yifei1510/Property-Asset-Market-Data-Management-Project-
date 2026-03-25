@@ -81,73 +81,79 @@ This project was completed in Power BI using Power Query, dimensional data model
       Prepared feature attributes in a pivoted format to analyse how housing features related to listing price.
 
 
-### 3. Analysis and Dashboard Reporting
-
- Built structured POWER BI, KPIs and charts
-
- Analysed 15,171 property listings
-
- Created summary views by:
-
-        city
-        
-        home type
-        
-        bedroom count
-        
-        school rating band
-
-Designed a dashboard to present key pricing and market insights
-
-You can view the dashboard output here:
-
-
-<img width="1525" height="853" alt="image" src="https://github.com/user-attachments/assets/c1e6fb5f-0884-424f-94ba-2d966e778a13" />
-
-
-<img width="1503" height="853" alt="image" src="https://github.com/user-attachments/assets/953b3bf3-8071-4f4e-b89b-1aea9cbca51a" />
-
-
-
 ## Skills
 
-        POWER BI
-        Power Query
-        Data Cleaning
-        Data Transformation
-        Relational Data Modelling
-        KPI Reporting
-        Dashboard Design
-        Duplicate Removal
+      Power BI
+      Power Query
+      Data Cleaning and Transformation
+      Data Standardisation and Deduplication
+      Relational Data Modelling
+      DAX and KPI Reporting
+      Interactive Dashboard Design
+      Data Visualisation
 
 
   ##  Results & Business Recommendation
 
-  ### Key Results
+  The final Power BI solution transformed 15,171 residential property records into a structured analytics dashboard, making it easier   to evaluate market conditions, compare property segments, and identify key drivers of listing price. After cleaning and 
+  restructuring the dataset, the main table was reduced from 47 columns to 21 columns, then rebuilt into a relational model to
+  improve reporting efficiency and support interactive analysis.
 
-        Cleaned and transformed 15,172 records
-        Reduced the main table from 47 columns to 21 columns
-        Built a relational model with 6 linked tables
-        Analysed 15,171 listings
+ ### Overview Dashboard
 
-  ### City Summary
+This dashboard provides a high-level market view across pricing, property type, location, build year, and feature availability.
 
-    Austin dominates the dataset with 15,020 properties, an average price of $514,785, and an average living area of 2,210 sq ft.         Smaller locations such as West Lake Hills and Dripping Springs show much higher average prices and larger homes, although their       property counts are very low.
-
-    #### Recommendation:
-    Focus reporting on both high-volume markets and premium niche suburbs. High-volume areas help identify overall market behaviour,      while smaller high-value suburbs may indicate premium pricing segments.
-
-<img width="367" height="170" alt="Screenshot 2026-03-16 150031" src="https://github.com/user-attachments/assets/aaa9b3f1-f43c-4f13-acd0-fda32562dcd1" />
-
-  ### Home Type Summary
-
-        Single Family properties account for 14,241 listings, making them the dominant segment in the dataset, with an average price         of $516,388. Vacant Land and MultiFamily properties show higher average prices, but they represent much smaller volumes.
-        
-        #### Recommendation:
-        For reporting and business analysis, treat Single Family homes as the core market segment, while using smaller categories             such as Vacant Land and MultiFamily to identify specialised or premium opportunities.
+<img width="698" height="393" alt="image" src="https://github.com/user-attachments/assets/befb5486-b729-4349-a045-cdaca4dab68a" />
 
 
-<img width="370" height="196" alt="Screenshot 2026-03-16 150052" src="https://github.com/user-attachments/assets/5949a385-1f35-4f76-8e26-3b1dabf6d1c4" />
+      1. The dashboard summarised 15,171 properties, with a median home price of $405,000, median living area of 1,975 sq ft, and              median lot area of 8,276 sq ft.
+      2. The market was heavily dominated by Single Family homes (14,241 listings), far exceeding other property types such as condos          and townhouses.
+      3. Average home price ($512,768) was noticeably higher than median home price, showing that listing prices were influenced by   
+         high-value outliers.
+      4. Property distribution by build year showed stronger listing concentration in more recent decades, helping highlight where   
+         current market supply is clustered.
+      5. Feature availability analysis showed that cooling (98.19%) and heating (99.02%) were almost universal, while premium 
+         features such as spa (7.90%) and view (22.77%) were less common.
+
+### Feature and Price Analysis Dashboard
+
+<img width="664" height="386" alt="image" src="https://github.com/user-attachments/assets/5961649f-cf51-46fe-8c60-e501d26387b7" />
+
+
+This dashboard explores how property features, structural attributes, and listing descriptions relate to higher listing prices.
+
+Feature comparison showed that homes with spa, view, heating, and garage access generally had higher median listing prices than those without these features.
+
+Key Influencers analysis identified strong price drivers such as:
+
+      Living area above 4,263 sq ft
+      More than 4.5 bathrooms
+      Lot size above 25,700 sq ft
+      2–3 stories
+      Newer build years
+
+### Key Result
+
+Text analysis across 7 custom price bands showed clear differences in listing language. Lower-priced homes more often used practical terms such as kitchen, bedrooms, and family, while higher-priced homes more often included premium terms such as pool, private, lake, and views.
+
+The project also improved model performance by redesigning the text-analysis structure from approximately 738,000 rows to around 29,285 rows, making dynamic ranking visuals more responsive.
+
+### Business Recommendation
+
+      Use median-based KPIs instead of averages when reporting housing prices, as median values better represent the market in the  
+      presence of extreme listings.
+      
+      Prioritise segmentation by home type, location, build year, living area, lot size, and premium features, as these variables 
+      showed stronger relationships with listing price.
+      
+      Use feature-level insights to support pricing and positioning decisions, especially for homes with premium attributes such as 
+      spa and view.
+      
+      Apply text-based listing analysis to improve marketing strategy, since language patterns differ across price segments and can 
+      help align descriptions with target buyers.
+      
+      Maintain a structured relational model for future reporting, as the redesign improved both analytical flexibility and 
+      performance.
 
 
 ### Achievements

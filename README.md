@@ -2,13 +2,15 @@
 
 ## Executive Summary
 
-This project analyses 15,171 residential property records from the Austin housing market and transforms raw housing data into a structured, interactive Power BI reporting dashboard. The dashboard suite was built to help users quickly understand market size, pricing patterns, property characteristics, and the main factors associated with higher-value homes.
-The final solution includes two interactive dashboard pages:
-   A market overview dashboard summarising property count, home prices, lot size, living area, home types, ZIP code distribution,   
-   build year trends, and key property features.
-   A features and price analysis dashboard focused on identifying the main drivers of listing price using feature comparisons, trend 
-   analysis, keyword analysis, and Key Influencers in Power BI.
-This project demonstrates practical skills in Power Query, data modelling, DAX, KPI reporting, dashboard design, and business insight generation.
+Built an interactive Power BI dashboard solution to analyse 15,171 residential property records and turn raw housing data into clear market insights. The dataset was cleaned, standardised, deduplicated, and remodelled from 47 columns to 21 columns, then restructured into a relational model to improve reporting efficiency and usability.
+
+The final solution highlighted key metrics including a median home price of $405,000, median living area of 1,975 sq ft, and median lot area of 8,276 sq ft, while also analysing price differences across home type, ZIP code, build year, structural attributes, premium features, and listing descriptions. Model optimisation further reduced the Power BI file size from 5,318 KB to 2,973 KB.
+
+Live Dashboards:
+
+[Summary Insight](https://app.powerbi.com/groups/me/reports/3fa174c1-7367-4134-9264-b3257dd45974/a268de0cf7222dc8033d?experience=power-bi)
+
+[Price Analysis](https://app.powerbi.com/groups/me/reports/3fa174c1-7367-4134-9264-b3257dd45974/4e38970ef0bd2d8ffbb9?experience=power-bi)
 
 ## Business Problem
 

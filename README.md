@@ -40,7 +40,7 @@ Transform the raw housing dataset into a clean, structured, and business-friendl
 
 This project was completed in Power BI using Power Query, dimensional data modelling, DAX measures, and interactive dashboard design.
 
-1. Data Cleaning and Transformation
+### Data Cleaning and Transformation
    
       1. Loaded the raw housing dataset into Power Query for preparation and transformation.
       2. Cleaned and transformed 15,172 property records to improve reporting readiness.
@@ -50,12 +50,12 @@ This project was completed in Power BI using Power Query, dimensional data model
       6. Applied transformation and formatting rules to improve data quality and usability.
       7. Reduced the main housing table from 47 columns to 21 columns before modelling.
       
-2. Data Modelling
+### Data Modelling
 
-Rebuilt the raw dataset into a relational star-style model centred on the
+1. Rebuilt the raw dataset into a relational star-style model centred on the
       housing_fact table.
    
-Created supporting dimension tables, including:
+2. Created supporting dimension tables, including:
 
       location
       house
@@ -63,20 +63,22 @@ Created supporting dimension tables, including:
       features
       description
       
-Created analytical support tables including:
+3. Created analytical support tables including:
 
       features_pivot for feature-based comparison analysis
       word_summary_pqe for optimised word-frequency analysis
       
-Built relationship keys such as house_key, school_key, feature_key, and zpid to connect fact and supporting tables.
-Organised the model to reduce redundancy, improve maintainability, and support more efficient analysis.
-4. Text and Feature Analysis Preparation
+4. Built relationship keys such as house_key, school_key, feature_key, and zpid to connect fact and supporting tables.
+
+5. Organised the model to reduce redundancy, improve maintainability, and support more efficient analysis.
+
+   <img width="529" height="390" alt="image" src="https://github.com/user-attachments/assets/95409284-431e-4f88-b15f-7b2259d54d3b" />
+
+### Text and Feature Analysis Preparation
 Separated property description content into a dedicated text-analysis structure.
 Created a summary word table to support dynamic word ranking across price groups.
 Used a Power Query–based summary approach to improve performance compared with a heavier DAX-driven structure.
 Prepared feature attributes in a pivoted format to analyse how housing features related to listing price.
-
-<img width="622" height="416" alt="Screenshot 2026-03-09 204208" src="https://github.com/user-attachments/assets/db7f5a7f-6248-4321-bbf7-3fe5feebcfca" />
 
 
 ### 3. Analysis and Dashboard Reporting

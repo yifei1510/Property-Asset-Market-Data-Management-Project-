@@ -160,11 +160,12 @@ The project also improved model performance by redesigning the text-analysis str
 
 ### Achievements
 
-    Reduced report size by ~40%
-    Improved refresh and query speed
-    Built scalable dimensional architecture
-    Enabled keyword-level text analysis
-    Enhanced model maintainability
+    1. Reduced Power BI file size from 5,318 KB to 2,973 KB (~44% reduction)
+    2. Cleaned and transformed 15,171 records, reducing the main table from 47 to 21 columns
+    3. Built a scalable relational dimensional model with fact and supporting tables
+    4. Optimised text-analysis structures from 738,000 rows to 29,285 rows
+    5. Enabled keyword-level comparison across 7 property price bands
+    6. Improved model maintainability, reporting efficiency, and interactive analysis capability
 
 ### Business Recommendations
 

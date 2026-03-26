@@ -60,19 +60,24 @@ This project was completed in Power BI using Power Query, dimensional data model
 2. Created supporting dimension tables, including:
 
       location
+   
       house
+   
       schools
+   
       features
+   
       description
+   
       
-3. Created analytical support tables including:
+4. Created analytical support tables including:
 
       features_pivot for feature-based comparison analysis
       word_summary_pqe for optimised word-frequency analysis
       
-4. Built relationship keys such as house_key, school_key, feature_key, and zpid to connect fact and supporting tables.
+5. Built relationship keys such as house_key, school_key, feature_key, and zpid to connect fact and supporting tables.
 
-5. Organised the model to reduce redundancy, improve maintainability, and support more efficient analysis.
+6. Organised the model to reduce redundancy, improve maintainability, and support more efficient analysis.
 
    <img width="529" height="390" alt="image" src="https://github.com/user-attachments/assets/95409284-431e-4f88-b15f-7b2259d54d3b" />
 

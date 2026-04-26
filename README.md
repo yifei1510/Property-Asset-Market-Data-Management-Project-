@@ -8,9 +8,9 @@ The final solution highlighted key metrics including a median home price of $405
 
 Live Dashboards:
 
-[Summary Insight](https://app.powerbi.com/groups/me/reports/3fa174c1-7367-4134-9264-b3257dd45974/a268de0cf7222dc8033d?experience=power-bi)
+[Summary Insight](https://app.powerbi.com/groups/me/reports/fdeeca6b-577a-4580-8e29-1d31346cff5e/a268de0cf7222dc8033d?experience=power-bi)
 
-[Price Analysis](https://app.powerbi.com/groups/me/reports/3fa174c1-7367-4134-9264-b3257dd45974/4e38970ef0bd2d8ffbb9?experience=power-bi)
+[Price Analysis](https://app.powerbi.com/groups/me/reports/fdeeca6b-577a-4580-8e29-1d31346cff5e/4e38970ef0bd2d8ffbb9?experience=power-bi)
 
 ## Business Problem
 
